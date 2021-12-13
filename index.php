@@ -1,5 +1,5 @@
 <?php
-  session_start();
+
   require_once "clases/Crud.php";
   $obj = new Crud();
   $datos = $obj->mostrar();
